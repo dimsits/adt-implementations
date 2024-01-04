@@ -1,8 +1,7 @@
 # Data Structures and Algorithms (DSA) Notes Repository
 
 ## Pre-midterm Topics
-### 1) Abstract Data Type (ADT)
-### 2) ADT List
+### 1) ADT List
    - Differentiating a List from an ADT List.
    - List Operations: Initialize, insert, delete, member, locate, and other operations.
    - Implementations of ADT List:
@@ -16,7 +15,7 @@
       - Cursor-based Implementation
    - Time Complexity of List operations in different implementations: O(1), O(N), and O(N*N)
 
-### 3) ADT Stack and Implementations
+### 2) ADT Stack and Implementations
    - What is an ADT Stack?
    - Stack Operations: Top, Pop, Push, and other utility functions such as initStack, isEmpty, and isFull.
    - Implementations
@@ -25,7 +24,7 @@
       - Cursor-based Implementation
    - Time Complexity: O(1) and O(N)
 
-### 4) ADT Queue and Implementations
+### 3) ADT Queue and Implementations
    - What is an ADT Queue?
    - Queue Operations: Front, Dequeue, Enqueue, and other utility functions such as initQueue, isEmpty, and isFull.
    - Implementations
