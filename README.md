@@ -1,5 +1,11 @@
 # Data Structures and Algorithms (DSA) Notes Repository
 
+## Learning Process
+   1) Learn theory of concept
+   2) Attempt to implement it on C on your own
+   3) Improve implementation through research
+   4) Integrate with previous Data Structures learned
+
 ## Pre-midterm Topics
 ### 1) ADT List
    - Differentiating a List from an ADT List.
@@ -44,7 +50,6 @@
       1) ADT UID
          - An ADT based on set with operations Union, Intersection, and set Difference.
          - Implementations
-            - Array, Linked list, and cursor-based implementations
             - Bit-Vector Implementation
             - Computer Word Implementation
                - Shift operators: >> and <<
