@@ -4,7 +4,7 @@
    1) Learn theory of concept
    2) Attempt to implement it on C on your own
    3) Improve implementation through research
-   4) Integrate with previous Data Structures learned
+   4) Integrate with previous Data Structures learned and file handling
 
 ## Pre-midterm Topics
 ### 1) ADT List
