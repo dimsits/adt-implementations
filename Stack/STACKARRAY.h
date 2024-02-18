@@ -1,5 +1,5 @@
-#ifndef ARRAYSTACK_H
-#define ARRAYSTACK_H
+#ifndef STACKARRAY_H
+#define STACKARRAY_H
 #include <stdlib.h>
 #define MAX 5
 
@@ -46,4 +46,4 @@ char top(Stack S) {
     return isEmpty(S) == FALSE ? S->elem[S->top]: NULL;
 }
 
-#endif ARRAYSTACK_H
+#endif STACKARRAY_H
