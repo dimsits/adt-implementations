@@ -13,11 +13,15 @@ typedef struct {
     int avail;
 }*VHeap, VHType;
 
+typedef int List;
+
 typedef struct {
     VHeap heap;
-    int front;
-    int rear;
+    List front;
+    List rear;
 }*Queue, queueType;
+
+typedef enum { TRUE, FALSE }Bool;
 
 //VHEAP MANAGEMENT
 void initVH(VHeap *V); //LINK ALL CELLS STORES 1ST AVAILABLE NODE TO AVAIL
@@ -26,8 +30,10 @@ void deallocspace(VHeap *V, int ndx); //GIVEN INDEX, FUNCTION WILL PUT NODE IN A
 
 //QUEUE OPERATIONS
 void initQueue(Queue *Q);
-void enqueue(Queue *Q, char elem);
+void enqueue(Queue *Q, char c);
 void dequeue(Queue *Q);
+Bool isEmpty(Queue Q);
+
 
 void initVH(VHeap *V) {
     (*V) = (VHeap)malloc(sizeof(VHType));
@@ -68,5 +74,30 @@ void initQueue(Queue *Q) {
         (*Q)->rear = -1;
     }
 }
+
+Bool isEmpty(Queue Q) {
+    return Q->front == -1 && Q->rear == -1 ? TRUE : FALSE;
+}
+
+void enqueue(Queue *Q, char c) {
+    int ndx = allocspace(&((*Q)->heap));
+    if (ndx != -1) {
+        (*Q)->heap->nodes[ndx].elem = c;
+        (*Q)->heap->nodes[(*Q)->rear].link = ndx;
+        (*Q)->rear = ndx;
+        if (isEmpty(*Q) == TRUE) {
+            (*Q)->front = ndx;
+        }
+    }
+}
+
+void dequeue(Queue *Q) {
+    if (isEmpty(*Q) == FALSE) {
+        int temp = (*Q)->front;
+        (*Q)->front = (*Q)->
+    }
+}
+
+#endif QUEUECB_H
 
 
