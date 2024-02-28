@@ -98,6 +98,6 @@ void dequeue(Queue *Q) {
     }
 }
 
-#endif QUEUECB_H
+#endif
 
 
