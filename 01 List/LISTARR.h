@@ -1,5 +1,5 @@
-#ifndef LISTARR.h
-#define LISTARR.h
+#ifndef LISTARR_H
+#define LISTARR_H
 #define SIZE 10
 
 typedef struct LType{
