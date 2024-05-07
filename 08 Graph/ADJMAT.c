@@ -19,6 +19,7 @@ void main() {
                {INF, INF, 6, 2, 3, INF}};
 
     dijkstra(g, 0);
+    prim(g);
 }
 
 void dfs(graph A, int v) {
@@ -84,7 +85,7 @@ void dijkstra(graph A, int v) {
     }
 }
 
-void floyd-warshall(graph A) {
+void floydwarshall(graph A) {
     int dist[MAX][MAX];
 
     for (int i = 0; i < MAX; i++) {
