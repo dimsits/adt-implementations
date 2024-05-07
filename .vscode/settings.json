@@ -3,7 +3,10 @@
         "stdlib.h": "c",
         "Product.C": "cpp",
         "setsll.h": "c",
-        "includes.h": "c"
+        "includes.h": "c",
+        "stdio.h": "c",
+        "ADJLIST.C": "cpp",
+        "string.h": "c"
     },
     "C_Cpp.errorSquiggles": "disabled"
 }
