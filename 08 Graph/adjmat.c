@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-typedef struct node {
-	
-};
+typedef int graph[10][10];
+
+void dfs()
 
 void main() {
-	
+
 }
